@@ -1,0 +1,20 @@
+.max-lines {
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+	line-clamp: 7;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.sized {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-main-dishes{
+  max-width: 20rem;
+}
